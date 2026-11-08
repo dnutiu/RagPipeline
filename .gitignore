@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Pipeline outputs, rebuilt by `uv run src/ragpipeline/main.py`
+chroma_db/
+*.npz
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/

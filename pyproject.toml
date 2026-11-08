@@ -1,0 +1,18 @@
+[project]
+name = "ragpipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Denis-Cosmin Nutiu", email = "dnutiu@nuculabs.dev" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "chromadb>=1.5.9",
+    "flagembedding>=1.4.2",
+    "scikit-learn>=1.6.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
