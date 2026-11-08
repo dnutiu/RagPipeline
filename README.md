@@ -44,3 +44,9 @@ uv run src/ragpipeline/query.py "Who killed Fyodor Pavlovitch?" -k 3
 for the nearest paragraphs and prints them with their cosine similarity.
 
 Rerun `main.py` whenever you change the text or `PCA_COMPONENTS`; it rebuilds the collection from scratch.
+
+## Credits
+
+The text of *The Brothers Karamazov* by Fyodor Dostoyevsky (translated by Constance Garnett) comes from
+[Project Gutenberg](https://www.gutenberg.org/ebooks/28054). It is used under the
+[Project Gutenberg License](https://www.gutenberg.org/policy/license.html).
